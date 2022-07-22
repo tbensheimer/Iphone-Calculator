@@ -1,0 +1,203 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.iphone {
+  background: rgba(6, 6, 89, 0.368);
+  padding: 5px 15px 45px 15px;
+  border-radius: 50px;
+  border: solid 2px black;
+}
+
+.speaker {
+  background: black;
+  width: 50px;
+  height: 6px;
+border-radius: 20px;
+position: relative;
+left: 145px;
+top: 15px;
+}
+
+.home-btn {
+  background: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+  left: 150px;
+  top: 20px;
+  color: rgb(207, 204, 204);
+  font-size: 29px;
+  text-align: center;
+  padding-top: 1px;
+}
+
+.calculator-container {
+  background-color: rgb(21, 20, 20);
+  width: 300px;
+  height: 510px;
+  text-align: right;
+  padding-right:20px;
+  padding-left: 20px;
+  font-size: 26px;
+  font-family: sans-serif;
+  border-radius: 50px;
+
+}
+.display {
+  color: white;
+  padding-right: 40px;
+  padding-top: 40px;
+  margin-left: 20px;
+background-color: rgb(21, 20, 20);
+border-radius: 100px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 70px;
+}
+#btn {
+  font-family: sans-serif;
+  border-radius: 70%;
+  font-size: 25px;
+  height: 70px;
+  width: 70px;
+  cursor: pointer;
+}
+
+.subtract {
+background-color: rgb(228, 161, 6);
+color: white;
+
+}
+.subtract:hover {
+  background-color: rgb(233, 213, 164);;
+}
+.add{
+  background-color: rgb(228, 161, 6);
+color: white;
+}
+.add:hover {
+  background-color: rgb(233, 213, 164);;
+}
+.multiply {
+  background-color: rgb(228, 161, 6);
+    color: white;
+}
+.multiply:hover{
+  background-color: rgb(233, 213, 164);;
+
+}
+.divide {
+  background-color: rgb(228, 161, 6);
+    color: white;
+}
+.divide:hover {
+  background-color: rgb(233, 213, 164);
+
+}
+.equal {
+  background-color: rgb(228, 161, 6);
+    color: white;
+}
+.equal:hover {
+  background-color: rgb(233, 213, 164);;
+
+}
+.zero {
+  background-color: gray;
+  color: white;  
+}
+
+.number:hover {
+  background-color: rgb(187, 187, 187);
+}
+.one {
+  background-color: gray;
+  color: white;
+
+}
+.two {
+  background-color: gray;
+  color: white;
+
+}
+.three {
+  background-color: gray;
+  color: white;
+
+}
+.four {
+  background-color: gray;
+  color: white;
+
+}
+.five {
+  background-color: gray;
+  color: white;
+
+}
+.six {
+  background-color: gray;
+  color: white;
+
+
+}
+.seven {
+  background-color: gray;
+  color: white;
+
+
+}
+.eight {
+  background-color: gray;
+  color: white;
+
+
+}
+.nine {
+  background-color: gray;
+  color: white;
+
+
+}
+.decimal {
+  background-color: gray;
+  color: white;
+}
+.decimal:hover {
+  background-color: rgb(187, 187, 187);
+
+}
+.reset:hover {
+  background-color: rgb(195, 193, 193);
+}
+.invert:hover {
+  background-color: rgb(195, 193, 193);
+}
+.percent:hover {
+  background-color: rgb(195, 193, 193);
+
+}
+.depressed {
+color:rgb(228, 161, 6);
+  background-color:rgb(234, 232, 230);
+  font-weight: 550;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+body {
+  background-color: rgb(234, 229, 229);
+}
