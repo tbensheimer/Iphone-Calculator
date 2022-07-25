@@ -49,12 +49,13 @@ top: 15px;
 
 }
 .display {
+  width: 90%;
   color: white;
-  padding-right: 40px;
   padding-top: 40px;
   margin-left: 20px;
 background-color: rgb(21, 20, 20);
-border-radius: 100px;
+border-radius: 50px 50px 0px 0px;
+overflow: hidden;
 }
 
 h1 {
